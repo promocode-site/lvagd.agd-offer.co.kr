@@ -118,7 +118,7 @@ const Comparison = () => {
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-foreground text-center mb-4">💰 지역별 평균 호텔 가격 비교</h2>
           <p className="text-muted-foreground text-center max-w-2xl mx-auto mb-10">
-            동일한 호텔을 각 플랫폼에서 검색했을 때의 평균 가격을 비교했습니다. (2026년 7월 기준, 1박 기준)
+            동일한 호텔을 각 플랫폼에서 검색했을 때의 평균 가격을 비교했습니다. (2026년 8월 기준, 1박 기준)
           </p>
 
           <div className="overflow-x-auto">
