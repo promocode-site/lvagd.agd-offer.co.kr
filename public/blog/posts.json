@@ -4,5 +4,20 @@
   "baseUrl": "https://lvagd.agd-offer.co.kr",
   "postUrlPattern": "/blog/{slug}/",
   "updated": "2026-09-23",
-  "posts": []
+  "posts": [
+    {
+      "title": "아고다 할인코드 총정리, 한도없는 5% 할인코드가 유리한 경우",
+      "slug": "agoda-discount-code-5-percent-no-limit",
+      "date": "2026-09-23",
+      "description": "아고다 할인코드의 종류와 확인 방법, 한도없는 5% 할인코드가 어떤 예약 상황에서 유리한지 정리했습니다.",
+      "image": "https://images.unsplash.com/photo-1787724778848-f2b76772af45?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5NTczfDB8MXxzZWFyY2h8MXx8aG90ZWwlMjByb29tJTIwYm9va2luZyUyMGxhcHRvcHxlbnwxfDB8fHwxNzkwMTQ5NDUzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageCredit": {
+        "source": "unsplash",
+        "authorName": "Vitaly Gariev",
+        "authorUrl": "https://unsplash.com/@silverkblack?utm_source=blog-admin&utm_medium=referral",
+        "photoUrl": "https://unsplash.com/photos/woman-using-laptop-with-credit-card-5KS3_dtyCDw?utm_source=blog-admin&utm_medium=referral",
+        "siteUrl": "https://unsplash.com?utm_source=blog-admin&utm_medium=referral"
+      }
+    }
+  ]
 }
