@@ -28,11 +28,20 @@
   "@context": "https://schema.org",
   "@graph": [
     {
+      "@type": "Organization",
+      "@id": "https://lvagd.agd-offer.co.kr/#organization",
+      "name": "아고다 할인코드",
+      "url": "https://lvagd.agd-offer.co.kr/"
+    },
+    {
       "@type": "WebSite",
       "@id": "https://lvagd.agd-offer.co.kr/#website",
       "url": "https://lvagd.agd-offer.co.kr/",
       "name": "아고다 할인코드",
-      "inLanguage": "ko-KR"
+      "inLanguage": "ko-KR",
+      "publisher": {
+        "@id": "https://lvagd.agd-offer.co.kr/#organization"
+      }
     },
     {
       "@type": "WebPage",
@@ -44,13 +53,16 @@
       "isPartOf": {
         "@id": "https://lvagd.agd-offer.co.kr/#website"
       },
-      "datePublished": "2026-09-21",
-      "dateModified": "2026-09-21",
+      "datePublished": "2026-03-31T13:28:47+09:00",
+      "dateModified": "2026-09-27T17:46:00+09:00",
       "breadcrumb": {
         "@id": "https://lvagd.agd-offer.co.kr/#breadcrumb"
       },
       "mainEntity": {
         "@id": "https://lvagd.agd-offer.co.kr/#codelist"
+      },
+      "publisher": {
+        "@id": "https://lvagd.agd-offer.co.kr/#organization"
       }
     },
     {
@@ -1400,7 +1412,39 @@
 </section>
       </div>
     </div>
-  </main>
+  
+<!-- ===== 아고다 할인코드 업데이트 내역 ===== -->
+<section class="upd-log" id="update-log" aria-labelledby="upd-log-title" style="--upd-c:#3182F6;--upd-rgb:49,130,246">
+  <div class="upd-log-head">
+    <h2 class="upd-log-title" id="upd-log-title">아고다 할인코드 업데이트 내역</h2>
+    <p class="upd-log-last">최종 업데이트 <time datetime="2026-09-27">2026.09.27</time></p>
+  </div>
+  <ol class="upd-log-list">
+    <li><time datetime="2026-09-23">2026.09.23</time><p>할인코드 AGD5·AGODASALE·AGODASPONSORED·AGODADEAL5 추가, 마스터카드 최대 16%·비자카드 7%·유니온페이 UPI15·UPI12, KB국민·NH농협·토스뱅크 카드 할인 추가</p></li>
+    <li><time datetime="2026-09-01">2026.09.01</time><p>할인코드 COUDAL·LP12AGD2·LP10AGD2 등과 카드·간편결제 할인 예약 기간 9월 30일까지로 연장</p></li>
+    <li><time datetime="2026-08-01">2026.08.01</time><p>할인코드 COUDAL·LP12AGD2·LP10AGD2 등과 카드 할인 기간 8월 31일까지로 연장, 네이버페이·토스페이 투숙 10월 30일까지로 연장</p></li>
+    <li><time datetime="2026-07-02">2026.07.02</time><p>카드 할인 기간 7월 30일까지로 연장</p></li>
+    <li><time datetime="2026-06-01">2026.06.01</time><p>해외 12% 할인코드 LP12AGD2·국내 10% 할인코드 LP10AGD2 추가, 5% 기본코드 COUDAL 표기, 네이버페이·토스페이 11% 할인 추가</p></li>
+    <li><time datetime="2026-04-25">2026.04.25</time><p>8% 지역코드·LPAGDKR10과 카드 할인 기간 5월 31일까지로 연장</p></li>
+  </ol>
+</section>
+<style>
+.upd-log{max-width:780px;margin:32px auto;padding:28px 20px 24px;box-sizing:border-box;word-break:keep-all;text-align:left;background:#fff;color:#1f2328;border-radius:18px;box-shadow:0 1px 3px rgba(0,0,0,.06)}
+@media (max-width:820px){.upd-log{margin:24px 16px}}
+.upd-log *{box-sizing:border-box}
+.upd-log :where(h2,p,ol,li){margin:0;padding:0}
+.upd-log-head{text-align:center;margin-bottom:16px}
+.upd-log-title{font-size:22px;font-weight:800;letter-spacing:-.02em;line-height:1.35;color:inherit}
+.upd-log-last{margin-top:8px;font-size:13px;opacity:.75}
+.upd-log-last time{font-weight:800;color:var(--upd-c);opacity:1}
+.upd-log-list{list-style:none;background:rgba(var(--upd-rgb),.05);border:1px solid rgba(var(--upd-rgb),.18);border-radius:14px;padding:4px 18px}
+.upd-log-list li{display:flex;gap:14px;align-items:baseline;padding:11px 0;border-top:1px solid rgba(var(--upd-rgb),.14)}
+.upd-log-list li:first-child{border-top:0}
+.upd-log-list time{flex:0 0 auto;font:800 12.5px/1.6 ui-monospace,Menlo,Consolas,monospace;color:var(--upd-c)}
+.upd-log-list p{font-size:14px;line-height:1.6}
+@media (max-width:640px){.upd-log-title{font-size:19px}.upd-log-list li{flex-direction:column;gap:2px}}
+</style>
+</main>
 
   <!-- ===== 푸터 ===== -->
   <footer class="lvw-footer">
