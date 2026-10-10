@@ -160,6 +160,12 @@
   <!-- ===== 헤더 ===== -->
   <header class="lvw-header">
     <div class="lvw-in">
+      <div class="lvw-bar">
+        <a class="lvw-logo" href="./">아고다 할인코드</a>
+        <nav class="lvw-pnav" aria-label="사이트 메뉴">
+          <ul><li><a href="./" aria-current="page">홈</a></li><li><a href="discount-coupon/">할인쿠폰</a></li><li><a href="card-discount/">카드할인</a></li></ul>
+        </nav>
+      </div>
       <p class="lvw-cap">AGODA PROMO CODE · OCTOBER</p>
       <h1 class="lvw-h1">아고다 할인코드</h1>
       <p class="lvw-desc">지금 쓸 수 있는 아고다 할인코드 11종과 할인 쿠폰, 카드·간편결제 할인을 모았습니다. 예약 금액과 여행지별로 가장 싸게 겹치는 조합까지 계산해 두었습니다.</p>
@@ -762,6 +768,7 @@
     <p class="lvp-foot-txt"><b>할인 쿠폰 + 할인코드 조합이 가장 쌉니다.</b> 할인코드 중복이 되는 메가세일·VIP 회원가 요금에 할인코드를 넣고, 행사 카드로 결제하면 할인이 세 번 겹칩니다.</p>
     <a class="lvp-cta" href="https://app.ac/2ErYXqS23" target="_blank" rel="nofollow sponsored noopener">아고다 할인 쿠폰 받기</a>
   </div>
+  <a class="lvw-more" href="discount-coupon/">아고다 할인쿠폰 전체 보기</a>
 
 </section>
       </div>
@@ -913,6 +920,7 @@
     <p class="lvk-foot-txt"><b>할인코드 + 카드 할인 = 두 번 할인</b> $250 숙소에 LP12AGD2(-$30)를 넣고 마스터카드 월드 엘리트(16%)로 결제하면 $220의 16%인 $35.2가 한 번 더 빠집니다.</p>
     <a class="lvk-cta" href="https://app.ac/2ErYXqS23" target="_blank" rel="nofollow sponsored noopener">아고다 카드 할인 받기</a>
   </div>
+  <a class="lvw-more" href="card-discount/">아고다 카드할인 전체 보기</a>
 
 </section>
       </div>
@@ -1411,7 +1419,7 @@
 .upd-log-list li{display:flex;gap:14px;align-items:baseline;padding:11px 0;border-top:1px solid rgba(var(--upd-rgb),.14)}
 .upd-log-list li:first-child{border-top:0}
 .upd-log-list time{flex:0 0 auto;font:800 12.5px/1.6 ui-monospace,Menlo,Consolas,monospace;color:var(--upd-c)}
-.upd-log-list p{font-size:14px;line-height:1.6}
+.upd-log-list p{font-size:14px;line-height:1.6;overflow-wrap:anywhere}
 @media (max-width:640px){.upd-log-title{font-size:19px}.upd-log-list li{flex-direction:column;gap:2px}}
 </style>
 </main>
@@ -1434,6 +1442,18 @@
           <ul><li><a href="https://xn--bk1b700b1cz40buif.com/dealstore/agoda/">쿠폰의달인 아고다 할인</a></li><li><a href="https://solar-revival.co.kr/agoda">아고다 할인 쿠폰 모음</a></li></ul>
         </div>
       </div>
+      <!--@FOOTER-LINKS-->
+      <div class="lvw-f-links">
+        <div class="lvw-f-col">
+          <p class="lvw-f-title">카드사별 할인</p>
+          <ul><li><a href="shinhan-card/">신한카드</a></li><li><a href="kb-card/">KB국민카드</a></li><li><a href="hyundai-card/">현대카드</a></li><li><a href="samsung-card/">삼성카드</a></li><li><a href="hana-card/">하나카드</a></li><li><a href="woori-card/">우리카드</a></li><li><a href="lotte-card/">롯데카드</a></li><li><a href="nh-card/">NH농협카드</a></li><li><a href="mastercard-card/">마스터카드</a></li><li><a href="kakao-pay/">카카오페이</a></li><li><a href="naver-pay/">네이버페이</a></li><li><a href="toss-pay/">토스페이</a></li></ul>
+        </div>
+        <div class="lvw-f-col">
+          <p class="lvw-f-title">다른 할인코드</p>
+          <ul><li><a href="tripcom/">트립닷컴</a></li><li><a href="hotelscom/">호텔스닷컴</a></li><li><a href="myrealtrip/">마이리얼트립</a></li><li><a href="klook/">클룩</a></li></ul>
+        </div>
+      </div>
+      <!--@/FOOTER-LINKS-->
       <div class="lvw-f-bottom">
         <p class="lvw-f-copy">수집 기준일 <time datetime="2026-10-01">2026.10.01</time> · © 2026 아고다 할인코드</p>
         <a class="lvw-top" href="#lvw-top">맨 위로 ↑</a>
@@ -1505,6 +1525,21 @@ html{scroll-behavior:smooth}
 .lvw-f-copy{font-size:12px;color:#7d8bab}
 .lvw-top{text-decoration:none !important;color:#fff !important;font-size:12.5px;font-weight:800;border:1px solid #33405e;padding:7px 12px;border-radius:8px}
 
+.lvw-bar{display:flex;align-items:center;gap:12px;margin-bottom:28px}
+.lvw-logo{flex:0 0 auto;text-decoration:none !important;color:var(--ink) !important;font-size:16px;font-weight:900;letter-spacing:-.02em;white-space:nowrap}
+.lvw-logo::after{content:"";display:inline-block;width:8px;height:8px;border-radius:2px;background:var(--lime);margin-left:6px;vertical-align:middle;box-shadow:0 0 0 2px var(--ink)}
+.lvw-pnav{margin-left:auto;min-width:0}
+.lvw-pnav ul{list-style:none;display:flex;gap:6px;overflow-x:auto;scrollbar-width:none}
+.lvw-pnav ul::-webkit-scrollbar{display:none}
+.lvw-pnav a{display:block;white-space:nowrap;text-decoration:none !important;color:var(--ink) !important;background:#fff;border:1px solid var(--ln);font-size:13px;font-weight:800;padding:8px 14px;border-radius:999px}
+.lvw-pnav a:hover{border-color:var(--bl)}
+.lvw-pnav a[aria-current="page"]{background:var(--ink);border-color:var(--ink);color:#fff !important}
+.lvw-more{display:block;margin-top:12px;text-align:center;text-decoration:none !important;background:#fff;color:var(--ink) !important;border:2px solid var(--ink);font-size:14.5px;font-weight:900;padding:13px 18px;border-radius:12px}
+.lvw-more:hover{background:var(--sky)}
+.lvw-f-links{display:grid;grid-template-columns:2.4fr 1fr;gap:28px;padding:24px 0;border-bottom:1px solid #243049}
+.lvw-f-links .lvw-f-col ul{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px 14px}
+.lvw-f-links .lvw-f-col:last-child ul{grid-template-columns:repeat(2,minmax(0,1fr))}
+
 @media (max-width:760px){
   .lvw-h1{font-size:34px}
   .lvw-kpis{grid-template-columns:1fr 1fr}
@@ -1517,8 +1552,13 @@ html{scroll-behavior:smooth}
   .lvw-cont > section{padding-left:0 !important}
   .lvw-f-top{grid-template-columns:1fr 1fr}
   .lvw-f-about{grid-column:1 / -1}
+  .lvw-f-links{grid-template-columns:1fr;gap:22px}
+  .lvw-f-links .lvw-f-col ul,.lvw-f-links .lvw-f-col:last-child ul{grid-template-columns:repeat(3,minmax(0,1fr))}
 }
 @media (max-width:420px){
+  .lvw-bar{flex-wrap:wrap;gap:10px;margin-bottom:22px}
+  .lvw-pnav{flex:1 1 100%;margin-left:0}
+  .lvw-f-links .lvw-f-col ul,.lvw-f-links .lvw-f-col:last-child ul{grid-template-columns:repeat(2,minmax(0,1fr))}
   .lvw-h1{font-size:30px}
   .lvw-kpis strong{font-size:14.5px}
   .lvw-nav-cta{padding:9px 10px;font-size:12px}
